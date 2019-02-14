@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B24384932048E9BB00B5CAC5 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = B24384922048E9BB00B5CAC5 /* Item.m */; };
+		B27741E02059F7DC00A8DB1C /* ShoppingBag.m in Sources */ = {isa = PBXBuildFile; fileRef = B27741DF2059F7DC00A8DB1C /* ShoppingBag.m */; };
+		B2A244D4205B572300B290C0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A244D3205B572300B290C0 /* DetailViewController.m */; };
+		B2C77273203FB23400ED4E0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C77272203FB23400ED4E0B /* AppDelegate.m */; };
+		B2C77276203FB23400ED4E0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C77275203FB23400ED4E0B /* ViewController.m */; };
+		B2C77279203FB23400ED4E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C77277203FB23400ED4E0B /* Main.storyboard */; };
+		B2C7727B203FB23400ED4E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C7727A203FB23400ED4E0B /* Assets.xcassets */; };
+		B2C7727E203FB23400ED4E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C7727C203FB23400ED4E0B /* LaunchScreen.storyboard */; };
+		B2C77281203FB23400ED4E0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C77280203FB23400ED4E0B /* main.m */; };
+		B2C7728B203FB23600ED4E0B /* CashRegisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C7728A203FB23600ED4E0B /* CashRegisterTests.m */; };
+		B2C77296203FB23600ED4E0B /* CashRegisterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C77295203FB23600ED4E0B /* CashRegisterUITests.m */; };
+		B2C772A5203FB4E000ED4E0B /* cashRegisterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C772A4203FB4E000ED4E0B /* cashRegisterModel.m */; };
+		B2D401722054D1AC0021FCA3 /* ManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D401712054D1AC0021FCA3 /* ManagerController.m */; };
+		B2D401782054D22A0021FCA3 /* RestockController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D401772054D22A0021FCA3 /* RestockController.m */; };
+		B2D4017B205612CC0021FCA3 /* AddedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D4017A205612CC0021FCA3 /* AddedItem.m */; };
+		B2D401812056188D0021FCA3 /* HistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D401802056188D0021FCA3 /* HistoryController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2C77287203FB23600ED4E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C77266203FB23100ED4E0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2C7726D203FB23300ED4E0B;
+			remoteInfo = CashRegister;
+		};
+		B2C77292203FB23600ED4E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C77266203FB23100ED4E0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2C7726D203FB23300ED4E0B;
+			remoteInfo = CashRegister;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B24384912048E9BB00B5CAC5 /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		B24384922048E9BB00B5CAC5 /* Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		B27741DE2059F7DC00A8DB1C /* ShoppingBag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingBag.h; sourceTree = "<group>"; };
+		B27741DF2059F7DC00A8DB1C /* ShoppingBag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingBag.m; sourceTree = "<group>"; };
+		B2A244D2205B572300B290C0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B2A244D3205B572300B290C0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B2C7726E203FB23300ED4E0B /* CashRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C77271203FB23300ED4E0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2C77272203FB23400ED4E0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2C77274203FB23400ED4E0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2C77275203FB23400ED4E0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2C77278203FB23400ED4E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2C7727A203FB23400ED4E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2C7727D203FB23400ED4E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2C7727F203FB23400ED4E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C77280203FB23400ED4E0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2C77286203FB23600ED4E0B /* CashRegisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashRegisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C7728A203FB23600ED4E0B /* CashRegisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashRegisterTests.m; sourceTree = "<group>"; };
+		B2C7728C203FB23600ED4E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C77291203FB23600ED4E0B /* CashRegisterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashRegisterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C77295203FB23600ED4E0B /* CashRegisterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashRegisterUITests.m; sourceTree = "<group>"; };
+		B2C77297203FB23600ED4E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C772A3203FB4E000ED4E0B /* cashRegisterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cashRegisterModel.h; sourceTree = "<group>"; };
+		B2C772A4203FB4E000ED4E0B /* cashRegisterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cashRegisterModel.m; sourceTree = "<group>"; };
+		B2D401702054D1AC0021FCA3 /* ManagerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerController.h; sourceTree = "<group>"; };
+		B2D401712054D1AC0021FCA3 /* ManagerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerController.m; sourceTree = "<group>"; };
+		B2D401762054D22A0021FCA3 /* RestockController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestockController.h; sourceTree = "<group>"; };
+		B2D401772054D22A0021FCA3 /* RestockController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestockController.m; sourceTree = "<group>"; };
+		B2D40179205612CC0021FCA3 /* AddedItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddedItem.h; sourceTree = "<group>"; };
+		B2D4017A205612CC0021FCA3 /* AddedItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddedItem.m; sourceTree = "<group>"; };
+		B2D4017F2056188D0021FCA3 /* HistoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryController.h; sourceTree = "<group>"; };
+		B2D401802056188D0021FCA3 /* HistoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2C7726B203FB23300ED4E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C77283203FB23600ED4E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C7728E203FB23600ED4E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2C77265203FB23000ED4E0B = {
+			isa = PBXGroup;
+			children = (
+				B2C77270203FB23300ED4E0B /* CashRegister */,
+				B2C77289203FB23600ED4E0B /* CashRegisterTests */,
+				B2C77294203FB23600ED4E0B /* CashRegisterUITests */,
+				B2C7726F203FB23300ED4E0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2C7726F203FB23300ED4E0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2C7726E203FB23300ED4E0B /* CashRegister.app */,
+				B2C77286203FB23600ED4E0B /* CashRegisterTests.xctest */,
+				B2C77291203FB23600ED4E0B /* CashRegisterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2C77270203FB23300ED4E0B /* CashRegister */ = {
+			isa = PBXGroup;
+			children = (
+				B2C77271203FB23300ED4E0B /* AppDelegate.h */,
+				B2C77272203FB23400ED4E0B /* AppDelegate.m */,
+				B2C77274203FB23400ED4E0B /* ViewController.h */,
+				B2C77275203FB23400ED4E0B /* ViewController.m */,
+				B2D40179205612CC0021FCA3 /* AddedItem.h */,
+				B2D4017A205612CC0021FCA3 /* AddedItem.m */,
+				B2C77277203FB23400ED4E0B /* Main.storyboard */,
+				B2A244D2205B572300B290C0 /* DetailViewController.h */,
+				B2A244D3205B572300B290C0 /* DetailViewController.m */,
+				B2D401762054D22A0021FCA3 /* RestockController.h */,
+				B2D401772054D22A0021FCA3 /* RestockController.m */,
+				B2D401702054D1AC0021FCA3 /* ManagerController.h */,
+				B2D401712054D1AC0021FCA3 /* ManagerController.m */,
+				B2C7727A203FB23400ED4E0B /* Assets.xcassets */,
+				B2C7727C203FB23400ED4E0B /* LaunchScreen.storyboard */,
+				B2C7727F203FB23400ED4E0B /* Info.plist */,
+				B2C77280203FB23400ED4E0B /* main.m */,
+				B2C772A3203FB4E000ED4E0B /* cashRegisterModel.h */,
+				B2C772A4203FB4E000ED4E0B /* cashRegisterModel.m */,
+				B27741DE2059F7DC00A8DB1C /* ShoppingBag.h */,
+				B27741DF2059F7DC00A8DB1C /* ShoppingBag.m */,
+				B24384912048E9BB00B5CAC5 /* Item.h */,
+				B24384922048E9BB00B5CAC5 /* Item.m */,
+				B2D4017F2056188D0021FCA3 /* HistoryController.h */,
+				B2D401802056188D0021FCA3 /* HistoryController.m */,
+			);
+			path = CashRegister;
+			sourceTree = "<group>";
+		};
+		B2C77289203FB23600ED4E0B /* CashRegisterTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2C7728A203FB23600ED4E0B /* CashRegisterTests.m */,
+				B2C7728C203FB23600ED4E0B /* Info.plist */,
+			);
+			path = CashRegisterTests;
+			sourceTree = "<group>";
+		};
+		B2C77294203FB23600ED4E0B /* CashRegisterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2C77295203FB23600ED4E0B /* CashRegisterUITests.m */,
+				B2C77297203FB23600ED4E0B /* Info.plist */,
+			);
+			path = CashRegisterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2C7726D203FB23300ED4E0B /* CashRegister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C7729A203FB23600ED4E0B /* Build configuration list for PBXNativeTarget "CashRegister" */;
+			buildPhases = (
+				B2C7726A203FB23300ED4E0B /* Sources */,
+				B2C7726B203FB23300ED4E0B /* Frameworks */,
+				B2C7726C203FB23300ED4E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashRegister;
+			productName = CashRegister;
+			productReference = B2C7726E203FB23300ED4E0B /* CashRegister.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2C77285203FB23600ED4E0B /* CashRegisterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C7729D203FB23600ED4E0B /* Build configuration list for PBXNativeTarget "CashRegisterTests" */;
+			buildPhases = (
+				B2C77282203FB23600ED4E0B /* Sources */,
+				B2C77283203FB23600ED4E0B /* Frameworks */,
+				B2C77284203FB23600ED4E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2C77288203FB23600ED4E0B /* PBXTargetDependency */,
+			);
+			name = CashRegisterTests;
+			productName = CashRegisterTests;
+			productReference = B2C77286203FB23600ED4E0B /* CashRegisterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2C77290203FB23600ED4E0B /* CashRegisterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C772A0203FB23600ED4E0B /* Build configuration list for PBXNativeTarget "CashRegisterUITests" */;
+			buildPhases = (
+				B2C7728D203FB23600ED4E0B /* Sources */,
+				B2C7728E203FB23600ED4E0B /* Frameworks */,
+				B2C7728F203FB23600ED4E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2C77293203FB23600ED4E0B /* PBXTargetDependency */,
+			);
+			name = CashRegisterUITests;
+			productName = CashRegisterUITests;
+			productReference = B2C77291203FB23600ED4E0B /* CashRegisterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2C77266203FB23100ED4E0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Seneca College";
+				TargetAttributes = {
+					B2C7726D203FB23300ED4E0B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B2C77285203FB23600ED4E0B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B2C7726D203FB23300ED4E0B;
+					};
+					B2C77290203FB23600ED4E0B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B2C7726D203FB23300ED4E0B;
+					};
+				};
+			};
+			buildConfigurationList = B2C77269203FB23200ED4E0B /* Build configuration list for PBXProject "CashRegister" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2C77265203FB23000ED4E0B;
+			productRefGroup = B2C7726F203FB23300ED4E0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2C7726D203FB23300ED4E0B /* CashRegister */,
+				B2C77285203FB23600ED4E0B /* CashRegisterTests */,
+				B2C77290203FB23600ED4E0B /* CashRegisterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2C7726C203FB23300ED4E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C7727E203FB23400ED4E0B /* LaunchScreen.storyboard in Resources */,
+				B2C7727B203FB23400ED4E0B /* Assets.xcassets in Resources */,
+				B2C77279203FB23400ED4E0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C77284203FB23600ED4E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C7728F203FB23600ED4E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2C7726A203FB23300ED4E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24384932048E9BB00B5CAC5 /* Item.m in Sources */,
+				B2D401722054D1AC0021FCA3 /* ManagerController.m in Sources */,
+				B27741E02059F7DC00A8DB1C /* ShoppingBag.m in Sources */,
+				B2D401812056188D0021FCA3 /* HistoryController.m in Sources */,
+				B2C77276203FB23400ED4E0B /* ViewController.m in Sources */,
+				B2C77281203FB23400ED4E0B /* main.m in Sources */,
+				B2D401782054D22A0021FCA3 /* RestockController.m in Sources */,
+				B2A244D4205B572300B290C0 /* DetailViewController.m in Sources */,
+				B2D4017B205612CC0021FCA3 /* AddedItem.m in Sources */,
+				B2C77273203FB23400ED4E0B /* AppDelegate.m in Sources */,
+				B2C772A5203FB4E000ED4E0B /* cashRegisterModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C77282203FB23600ED4E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C7728B203FB23600ED4E0B /* CashRegisterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C7728D203FB23600ED4E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C77296203FB23600ED4E0B /* CashRegisterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2C77288203FB23600ED4E0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2C7726D203FB23300ED4E0B /* CashRegister */;
+			targetProxy = B2C77287203FB23600ED4E0B /* PBXContainerItemProxy */;
+		};
+		B2C77293203FB23600ED4E0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2C7726D203FB23300ED4E0B /* CashRegister */;
+			targetProxy = B2C77292203FB23600ED4E0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2C77277203FB23400ED4E0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C77278203FB23400ED4E0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2C7727C203FB23400ED4E0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C7727D203FB23400ED4E0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2C77298203FB23600ED4E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2C77299203FB23600ED4E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2C7729B203FB23600ED4E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CashRegister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.seneca.mobiledev.student.CashRegister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2C7729C203FB23600ED4E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CashRegister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.seneca.mobiledev.student.CashRegister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2C7729E203FB23600ED4E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CashRegisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.seneca.mobiledev.student.CashRegisterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashRegister.app/CashRegister";
+			};
+			name = Debug;
+		};
+		B2C7729F203FB23600ED4E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CashRegisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.seneca.mobiledev.student.CashRegisterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashRegister.app/CashRegister";
+			};
+			name = Release;
+		};
+		B2C772A1203FB23600ED4E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CashRegisterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.seneca.mobiledev.student.CashRegisterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashRegister;
+			};
+			name = Debug;
+		};
+		B2C772A2203FB23600ED4E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CashRegisterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.seneca.mobiledev.student.CashRegisterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashRegister;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2C77269203FB23200ED4E0B /* Build configuration list for PBXProject "CashRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C77298203FB23600ED4E0B /* Debug */,
+				B2C77299203FB23600ED4E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C7729A203FB23600ED4E0B /* Build configuration list for PBXNativeTarget "CashRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C7729B203FB23600ED4E0B /* Debug */,
+				B2C7729C203FB23600ED4E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C7729D203FB23600ED4E0B /* Build configuration list for PBXNativeTarget "CashRegisterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C7729E203FB23600ED4E0B /* Debug */,
+				B2C7729F203FB23600ED4E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C772A0203FB23600ED4E0B /* Build configuration list for PBXNativeTarget "CashRegisterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C772A1203FB23600ED4E0B /* Debug */,
+				B2C772A2203FB23600ED4E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2C77266203FB23100ED4E0B /* Project object */;
+}
